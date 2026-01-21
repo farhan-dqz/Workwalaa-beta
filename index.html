@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MTQS6MNV51"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MTQS6MNV51');
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <meta name="description" content="A smart job-matching platform for migrant and local workers. Find or offer work quickly, reliably, and with dignity across India.">
+<meta property="og:title" content="Workwalaa – Your Work, Your Way">
+<meta name="twitter:title" content="Workwalaa – Your Work, Your Way">
+
+  
+  <!-- SEO Meta Tags -->
+  <title>Workwalaa</title>
+  <link rel="icon" type="image/png" href="assets/appicon.png" />
+
+  <meta name="description" content="Workwalaa connects migrant and local workers with job opportunities in India through smart technology. Find verified workers instantly or build your career with dignity.">
+  <meta name="keywords" content="jobs, workers, India, employment, migrant workers, verified workers, job platform, work opportunities">
+  <meta name="author" content="Workwalaa">
+  
+  <!-- Social & Structured Data (Unchanged) -->
+  <meta property="og:title" content="Workwalaa - Connecting Work To Worth">
+  <meta property="og:description" content="Smart technology platform connecting workers with opportunities in India">
+  <meta property="og:image" content="https://i.ibb.co/7dKvTqvZ/Untitled-design-7.png">
+  <meta property="og:url" content="https://workwalaa.com">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Workwalaa - Connecting Work To Worth">
+  <meta name="twitter:description" content="Smart technology platform connecting workers with opportunities in India">
+  <meta name="twitter:image" content="https://i.ibb.co/7dKvTqvZ/Untitled-design-7.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://workwalaa.com/#organization",
+      "name": "Workwalaa",
+      "url": "https://workwalaa.com",
+      "logo": "https://i.ibb.co/7dKvTqvZ/Untitled-design-7.png",
+      "description": "Connecting migrant and local workers with job opportunities in India",
+      "email": "info@workwalaa.com",
+      "telephone": "+91-81568-01024",
+      "sameAs": [
+        "https://x.com/workwalaa_app",
+        "https://www.facebook.com/profile.php?id=61578621201819",
+        "https://www.linkedin.com/company/workwalaa/",
+        "https://www.instagram.com/workwalaa_app/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-81568-01024",
+        "contactType": "customer service",
+        "email": "info@workwalaa.com"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://workwalaa.com/#website",
+      "url": "https://workwalaa.com",
+      "name": "Workwalaa",
+      "publisher": {
+        "@id": "https://workwalaa.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://workwalaa.com/#webpage",
+      "url": "https://workwalaa.com",
+      "name": "Workwalaa - Connecting Work to Worth",
+      "description": "Smart platform connecting local and migrant workers in India with verified jobs and fair pay.",
+      "isPartOf": {
+        "@id": "https://workwalaa.com/#website"
+      },
+      "about": {
+        "@id": "https://workwalaa.com/#organization"
+      },
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+
+
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Maven+Pro:wght@400;700&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Maven+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="styleshee">
+  <style>
+    /* --------------- CSS Custom Properties --------------- */
+    :root {
+      --primary-yellow: #fdd835;
+      --secondary-yellow: #ffe066;
+      --light-yellow: #fff8e1;
+      --text-dark: #000;
+      --text-gray: #666;
+      --text-light-gray: #888;
+      --white: #fff;
+      --spacing-sm: 1rem;
+      --spacing-md: 2rem;
+      --spacing-lg: 3rem;
+      --spacing-xl: 4rem;
+      --border-radius: 8px;
+      --border-radius-lg: 16px;
+      --transition: all 0.3s ease;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 24px rgba(0,0,0,0.06);
+      --shadow-lg: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+.slider {
+      position: relative;
+      height: 50px;
+      width: 300px;
+      overflow: hidden;
+    }
+
+    .slide-text {
+      position: absolute;
+      width: 100%;
+      text-align: left;
+      font-size: 28px;
+      font-family: "Maven Pro";
+
+      margin-left: -0.1rem;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeSlide 12s infinite;
+    }
+
+    .slide-text:nth-child(1) { animation-delay: 0s; }
+    .slide-text:nth-child(2) { animation-delay: 3s; }
+    .slide-text:nth-child(3) { animation-delay: 6s; }
+    .slide-text:nth-child(4) { animation-delay: 9s; }
+    .slide-text:nth-child(5) { animation-delay: 12s; }
+    .slide-text:nth-child(6) { animation-delay: 15s; }
+    .slide-text:nth-child(7) { animation-delay: 18s; }
+    .slide-text:nth-child(8) { animation-delay: 21s; }
+    .slide-text:nth-child(9) { animation-delay: 24s; }
+    .slide-text:nth-child(9) { animation-delay: 27s; }
+    .slide-text:nth-child(19) { animation-delay: 30s; }
+
+
+
+
+
+    @keyframes fadeSlide {
+      0%   { opacity: 0; transform: translateY(30px); }
+      10%  { opacity: 1; transform: translateY(0); }
+      25%  { opacity: 1; transform: translateY(0); }
+      35%  { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 0; transform: translateY(-30px); }
+    }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    padding-top: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  /* Modal content */
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+  }
+  .modal h1, .modal h2 {
+    color: #333;
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close:hover {
+    color: black;
+  }
+  .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close2:hover {
+    color: black;
+  }
+    /* --------------- Base reset & Defaults --------------- */
+    html { scroll-behavior: smooth; font-size: 16px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Maven Pro', sans-serif !important; }
+    body { background: var(--white); color: var(--text-dark); line-height: 1.6; }
+    a, button { transition: var(--transition); }
+    img { max-width: 100%; height: auto; display: block; }
+    button { cursor: pointer; min-height: 44px; min-width: 44px; }
+    
+    /* --------------- Accessibility & Utility --------------- */
+    .skip-link { position: absolute; top: -40px; left: 6px; background: var(--primary-yellow); color: var(--text-dark); padding: 8px; text-decoration: none; border-radius: var(--border-radius); z-index: 1001; font-weight: 600; }
+    .skip-link:focus { top: 6px; }
+    .error-message { background: #fee; color: #c33; padding: 0.75rem; border-radius: var(--border-radius); margin-bottom: var(--spacing-sm); border: 1px solid #fcc; display: none; }
+    #contact-success { display: none; color: green; margin-top: var(--spacing-sm); font-weight: 600; font-size: 1.07rem; text-align: center; }
+    
+ /* --------------- Fade in --------------- */
+    .fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+    /* --------------- Header --------------- */
+    header { background: linear-gradient(#ffffff, #fdd835); padding: 0rem var(--spacing-xl); display: flex; justify-content: space-between; align-items: center; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; box-shadow: var(--shadow-sm); height: 96px; }
+    header .logo img { height: 170px; }
+    nav { display: flex; align-items: flex-end; height: 100%; padding-bottom: var(--spacing-sm); }
+    nav a {
+  margin-left: var(--spacing-md);
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  border-radius: 999px; /* Pill-shaped */
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: white;
+  color: black;
+  outline: none;
+}
+
+
+    .menu-toggle { display: none; font-size: 2rem; background: none; border: none; color: var(--text-dark); margin-left: var(--spacing-sm); align-self: flex-end; margin-bottom: var(--spacing-sm); }
+    
+    /* --------------- Main Content & Hero --------------- */
+  
+    main { padding-top: 96px; }
+    .hero { background: linear-gradient(to bottom, var(--primary-yellow) 0%, var(--primary-yellow) 15%, var(--secondary-yellow) 35%, var(--light-yellow) 65%, var(--white) 85%, var(--white) 100%); padding: var(--spacing-xl) 6rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; min-height: 600px; }
+    .hero-text { max-width: 50%; flex-shrink: 0; margin-left: -37.8px; }
+    .hero-text h1 { font-size: 3rem;  font-weight: 800; line-height: 1.2; }
+    .hero-text p { font-size: 1rem; margin-top: var(--spacing-sm); max-width: 450px; color: var(--text-gray); }
+    .hero-buttons { margin-top: 1.5rem; justify-content: baseline; display: flex; gap: var(--spacing-sm); }
+    .hero-buttons button { padding: 0.75rem 1.5rem; border-radius: 20px; font-weight: 600; display: flex; align-items: center; gap: 0.5rem; background: var(--primary-yellow); border: none; color: var(--text-dark); text-decoration: none; }
+    .hero-buttons button:hover, .hero-buttons button:focus { background: var(--secondary-yellow); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+    .hero-image { flex-shrink: 0; display: flex; align-items: center; justify-content: center; max-width: 50%; }
+    .hero-image img { height: 550px; object-fit: contain; }
+    
+
+    @media (max-width: 768px) {
+  main {
+    padding-top: 100px;
+  }
+
+  .hero {
+    background: linear-gradient(to bottom, var(--primary-yellow) 0%, var(--primary-yellow) 15%, var(--secondary-yellow) 35%, var(--light-yellow) 55%, var(--white) 75%, var(--white) 100%);
+    padding: var(--spacing-xl) 2rem; /* smaller horizontal padding for phone */
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 600px;
+  }
+
+  .hero-text {
+  text-align: center; /* Center all inner content including slideshow */
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+    margin-top: var(--spacing-sm);
+    max-width: 100%;
+    color: var(--text-gray);
+  }
+
+  .hero-buttons {
+    margin-top: 1.5rem;
+    justify-content: center;
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .hero-image img {
+    height: 320px;
+    object-fit: contain;
+  }
+}
+
+.sliding-text-wrapper {
+  font-family: 'Maven+Pro';
+  font-size: 2rem; /* Increased size */
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+  min-height: 1.0em;
+  transition: all 0.3s ease-in-out; /* Smooth visual transition */
+  display: flex;
+        margin-left: 1rem;
+
+}
+
+.cursor {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #000;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+/* your existing styles stay as they are */
+
+/* --- Add only this --- */
+@media (max-width: 768px) {
+  .slider {
+    display: block;              /* flexbox only on phones */
+    justify-content: center;    /* center horizontally */
+    align-items: left;        /* center vertically if you want */
+    text-align: center;         /* center text inside */
+      margin-left: 5%;
+
+  }
+
+  .slide-text {
+    width: 100%;                /* span full width so text-align works */
+    text-align: center;          /* center text */
+    display: block;               /* helps center emoji + text */
+    justify-content: center;
+    margin-left: 0,auto;
+
+
+  }
+}
+
+
+
+
+
+    /* --------------- Services (Flip Cards) --------------- */
+    .services { padding: var(--spacing-lg) 0; }
+    .services h2 { font-size: 2rem; font-weight: 700; margin: 0 var(--spacing-lg) var(--spacing-md); }
+    .card-container-wrapper { position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; width: 100vw; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 0 var(--spacing-lg) var(--spacing-sm); scrollbar-width: none; }
+    .card-container-wrapper::-webkit-scrollbar { display: none; }
+    .card-container { display: flex; flex-wrap: nowrap; gap: var(--spacing-md); scroll-snap-type: x mandatory; transition: transform 0.3s; }
+    .css-card { flex: 0 0 auto; scroll-snap-align: start; min-width: 280px; max-width: 320px; height: 480px; perspective: 1000px; }
+    .css-card-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
+    .css-card:hover .css-card-inner, .css-card:focus-within .css-card-inner { transform: rotateY(180deg); }
+    .css-card-front, .css-card-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: 15px; box-shadow: var(--shadow-lg); display: flex; flex-direction: column; padding: 1.5rem; }
+    .css-card-front { background: linear-gradient(to bottom, #fff6d3, var(--white)); text-align: left; }
+    .css-card-back { background: linear-gradient(to top, var(--primary-yellow), var(--light-yellow)); transform: rotateY(180deg); align-items: center; justify-content: center; text-align: center; }
+    .css-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .css-card p { font-size: 0.9rem; margin-bottom: var(--spacing-sm); color: #333; }
+    .css-card .read-more { background: var(--primary-yellow); color: var(--text-dark); border: none; padding: 0.5rem var(--spacing-sm); border-radius: 20px; font-weight: 600; margin-bottom: var(--spacing-sm); width: fit-content; }
+    .css-card .read-more:hover, .css-card .read-more:focus { background: var(--secondary-yellow); transform: translateY(-1px); }
+    .css-card img { border-radius: 12px; margin-top: auto; object-fit: cover; }
+    .css-card-back h3 { font-size: 1.2rem; }
+    .css-card-back p { font-size: 1rem; line-height: 1.5; }
+
+    /* --------------- Staggered CTA Sections --------------- */
+    .staggered-container { padding: var(--spacing-xl) var(--spacing-md); max-width: 1400px; margin: 0 auto; }
+    .staggered-header { text-align: center; margin-bottom: var(--spacing-xl); }
+    .staggered-header h2 { font-size: 2.5rem; font-weight: 700; margin-bottom: var(--spacing-sm); }
+    .staggered-header p { font-size: 1.1rem; color: var(--text-gray); max-width: 600px; margin: 0 auto; }
+    .staggered-item { display: flex; align-items: center; gap: var(--spacing-xl); margin-bottom: 6rem; opacity: 0; animation: slideInUp 0.8s ease forwards; }
+    .staggered-item:nth-child(2) { animation-delay: 0.2s; }
+    .staggered-item:nth-child(3) { animation-delay: 0.4s; }
+    .staggered-item:nth-child(4) { animation-delay: 0.6s; }
+    @keyframes slideInUp { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
+    .staggered-item:nth-child(even) { flex-direction: row-reverse; }
+    .staggered-content { flex: 1; padding: var(--spacing-md); }
+    .staggered-image { flex: 0 0 240px; position: relative; }
+    .staggered-image img { width: 100%; height: 250px; object-fit: cover; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .staggered-image:hover img { transform: translateY(-10px) scale(1.02); box-shadow: 0 25px 50px rgba(0,0,0,0.15); }
+    .staggered-item:nth-child(odd) .staggered-image::before { content: ''; position: absolute; top: -20px; left: -20px; width: 80px; height: 80px; background: linear-gradient(135deg, var(--primary-yellow), var(--secondary-yellow)); border-radius: 50%; opacity: 0.3; z-index: -1; }
+    .staggered-item:nth-child(even) .staggered-image::before { content: ''; position: absolute; bottom: -20px; right: -20px; width: 80px; height: 80px; background: linear-gradient(135deg, var(--secondary-yellow), var(--light-yellow)); border-radius: 50%; opacity: 0.4; z-index: -1; }
+    .staggered-content h3 { font-size: 2rem; font-weight: 700; line-height: 1.3; margin-bottom: var(--spacing-sm); }
+    .staggered-content p { font-size: 1.1rem; color: #555; line-height: 1.7; margin-bottom: var(--spacing-md); }
+    .staggered-button { background: var(--text-dark); color: var(--white); border: none; padding: var(--spacing-sm) 2.5rem; border-radius: 30px; font-weight: 600; font-size: 1rem; display: inline-flex; align-items: center; gap: 0.5rem; position: relative; overflow: hidden; }
+    .staggered-button::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }
+    .staggered-button:hover::before, .staggered-button:focus::before { left: 100%; }
+    .staggered-button:hover, .staggered-button:focus { background: #333; transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.2); }
+    .staggered-button svg { width: 18px; height: 18px; transition: transform 0.3s ease; }
+    .staggered-button:hover svg, .staggered-button:focus svg { transform: translateX(5px); }
+
+    /* --------------- Contact Section --------------- */
+    .improved-contact { background: var(--white); border-radius: var(--border-radius-lg); margin-top: var(--spacing-md); margin-bottom: 0; padding: var(--spacing-lg) var(--spacing-md); box-shadow: var(--shadow-md); }
+    .contact-content {
+  display: flex;
+  align-items: flex-start; /* or center */
+  justify-content: space-between;
+  gap: 2rem; /* spacing between left & right */
+}
+
+.contact-info-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form {
+  flex: 1;
+}
+    .contact-info-block h2 { font-size: 2.1rem; font-weight: 600; margin-bottom: 1.5rem; }
+    .contact-info-block p { margin-bottom: var(--spacing-md); color: var(--text-gray); }
+    .contact-details { margin-top: 1.2rem; font-size: 1.07rem; line-height: 1.8; display: flex; flex-direction: column; gap: 1.2rem; }
+    .contact-details > div { display: flex; align-items: center; gap: 0.8rem; }
+    .contact-icon { display: inline-flex; align-items: center; justify-content: center; }
+    .contact-form { flex: 1 1 340px; min-width: 300px; background: var(--light-yellow); border-radius: var(--border-radius-lg); padding: var(--spacing-md) 1.5rem; box-shadow: 0 2px 12px rgba(0,0,0,0.06); display: flex; flex-direction: column; gap: var(--spacing-sm); }
+    .contact-form label { font-weight: 600; margin-bottom: 0.2rem; }
+    .contact-form input, .contact-form textarea { border: 1px solid #ddd; border-radius: var(--border-radius); padding: 0.7rem; font-size: 1rem; background: var(--white); }
+    .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid var(--primary-yellow); border-color: var(--primary-yellow); }
+    .contact-form button { background: var(--primary-yellow); color: var(--text-dark); border: none; border-radius: var(--border-radius); padding: 0.9rem; font-weight: 700; margin-top: 0.5rem; }
+    .contact-form button:hover, .contact-form button:focus { background: var(--secondary-yellow); transform: translateY(-1px); }
+
+ @media (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+    padding: 1.5rem ;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    padding: 0 0rem;
+    
+  }
+}
+
+    /* --------------- Footer --------------- */
+   #footer {
+  background: linear-gradient(to top, #fdd835, #fdd835);
+  padding: 2px 0; /* Reduced padding */
+  font-size: 13px;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.2cm;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+}
+
+.footer-social-inline {
+  display: flex;
+  gap: 3px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.footer-social-inline a {
+  margin: 0rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.footer-social-inline img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50px;
+  height: auto;
+  margin: 0rem;
+}
+
+.footer-social-inline a:hover img {
+  transform: scale(1.1);
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 6px;
+  color: #777;
+  padding: 2px 0;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .footer-left {
+    margin-bottom: 10px;
+  }
+
+.footer-links {
+  display: flex;
+  justify-content: center; /* or space-around/space-between */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 0.2rem; /* spacing between items */
+  padding: 0.1rem;
+  font-size: 1rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+}
+
+
+
+
+    /* --------------- Responsive Design (Ordered for clarity) --------------- */
+    @media (max-width: 1024px) {
+      .hero { padding: var(--spacing-lg) var(--spacing-md); min-height: 500px; }
+      .hero-image img { height: 300px; }
+      .footer-content { padding: 0 0.5rem; }
+      .staggered-item { gap: var(--spacing-md); }
+      .staggered-image { flex: 0 0 250px; }
+    }
+    
+    @media (max-width: 900px) {
+      .hero { flex-direction: column; padding: var(--spacing-md) var(--spacing-sm); text-align: center; min-height: auto; }
+      .hero-text, .hero-image { max-width: 100%; }
+      .hero-image { margin-top: var(--spacing-md); }
+      .hero-image img { height: 280px; }
+      .card-container-wrapper { padding: 0 var(--spacing-sm); }
+      .contact-content { flex-direction: column; gap: 1.5rem; }
+      .contact-info-block, .contact-form { max-width: 100%; padding-right: 0; }
+      .staggered-item { flex-direction: column !important; gap: var(--spacing-md); text-align: center; }
+      .staggered-image { flex: none; width: 100%; max-width: 350px; }
+      .staggered-container { padding: var(--spacing-md) var(--spacing-sm); }
+      .footer-main { flex-direction: column; align-items: flex-start; gap: 0.7rem; }
+      .footer-links { flex-direction: row; gap: 0.7rem; margin: 0.7rem 0 0; }
+      .footer-social, .footer-copyright { justify-content: flex-start; text-align: left; }
+      .footer-mission { margin-right: 0; }
+    }
+    
+    @media (max-width: 768px) {
+      header { height: 80px; padding: 0.5rem var(--spacing-md); }
+      main { padding-top: 80px; }
+      header .logo img { height: 105px; }
+      nav { display: none; flex-direction: column; background: var(--light-yellow); position: absolute; top: 80px; right: 0; left: 0; z-index: 10; padding: var(--spacing-sm) 0; align-items: center; height: auto; box-shadow: var(--shadow-sm); }
+      nav.active { display: flex; }
+      nav a { margin: 0.5rem 0; }
+      .menu-toggle { display: block; margin-bottom: 0.5rem; -webkit-tap-highlight-color: rgba(253, 216, 53, 0.3); }
+      .footer-logo { height: 110px; }
+      .css-card { -webkit-tap-highlight-color: rgba(253, 216, 53, 0.3); }
+      .css-card:active .css-card-inner { transform: rotateY(180deg); }
+      .read-more { background: var(--primary-yellow) !important; color: var(--text-dark) !important; }
+    }
+
+    /* Popup Background */
+    .popup-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(2px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Popup Box */
+    .popup {
+      background: white;
+      border-radius: 12px;
+      padding: 20px 30px;
+      width: 320px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .popup h2 {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .popup p {
+      font-size: 14px;
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .popup input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .popup button.submit-btn {
+      display: block;         /* Makes it take full line width for centering */
+  margin: 0 auto;         /* Centers horizontally */
+  background: #fdd835;    /* Your yellow color */
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+    }
+
+    .popup .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 18px;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="logo">
+      <img src="https://i.ibb.co/7dKvTqvZ/Untitled-design-7.png" alt="Workwalaa Logo" loading="eager">
+    </div>
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navigation">☰</button>
+    <nav role="navigation" aria-label="Main navigation">
+      <a href="#main-content">Home</a>
+      <a href="/careers.html">Careers</a>
+      <a href="/aboutus.html" class="text-black px-4 py-2">About us</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+ <main id="main-content">
+  <section id="home" class="hero fade-in-section">
+    <div class="hero-text">
+
+      <!-- 👇 Slideshow text moved inside and above heading -->
+      <div class="sliding-text-wrapper">
+        <span id="typed-text"></span>
+      </div>
+
+      <h1>Connecting Work <br>to Worth</h1>
+       <div class="slider">
+    <div class="slide-text"> Construction </div>
+    <div class="slide-text"> Agriculture </div>
+    <div class="slide-text"> Helpers</div>
+    <div class="slide-text"> Roofing</div>  </div>
+      <p>We match people to purpose using smart technology to turn every job into meaningful opportunity.</p>
+
+      <div class="hero-buttons">
+        <button id="download-btn" aria-label="Download Workwalaa app via WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+            Download app
+          </button>
+  <div class="popup-overlay" id="popup-overlay">
+    <div class="popup">
+      <button class="close-btn" id="close-popup">&times;</button>
+      <h2>We are launching soon </h2>
+      <p>Please provide your email to get the updates</p>
+      <form onsubmit="sendEmail(event)" action="mailto:conecxia@gmail.com?subject=I like to get the early access of the app" method="post" enctype="text/plain">
+    <input type="email" id="user-email" placeholder="Enter Email" autocomplete="email" required>
+<a href="mailto:conecxia@gmail.com?subject=I like to get the early access of the app">
+  <button type="button" class="submit-btn">Submit</button>
+</a>
+</form>
+
+
+
+    </div>
+  </div>
+
+
+        </div>
+      </div>
+     <div class="hero-image">
+  <img src="./assets/workwalaa.png" 
+       alt="Workwalaa" 
+       loading="eager" 
+       class="w-64 md:w-96" />
+       
+</div>
+
+    </section>
+
+
+    <!-- Services Section (Unchanged HTML) -->
+    <section id="services" class="services fade-in-section">
+      <h2>Our Services</h2>
+      <div class="card-container-wrapper">
+        <div class="card-container" role="group" aria-label="Service offerings">
+          <article class="css-card"><div class="css-card-inner"><div class="css-card-front"><h3>Verified and trusted </h3><p>We provide workers whose identities are verified through government issued ID checks for a safer and more reliable experience.</p><button class="read-more" aria-label="Read more about verified workers">Read more</button><img src="https://i.postimg.cc/4dfGcbmr/Untitled-design-1.png" alt="Verified worker with certification badge" loading="lazy"></div><div class="css-card-back"><h3>Our Verification Process</h3><p>Every worker on Workwalaa is verified using official government ID (like Aadhaar). While we don’t conduct background checks or certify skills, our identity verification adds a layer of trust and accountability for both clients and workers.</p></div></div></article>
+          <article class="css-card"><div class="css-card-inner"><div class="css-card-front"><h3>Smart Matching System</h3><p>Our tech driven system finds the best workers for your need instantly.<br>‎<br>‎</p><button class="read-more" aria-label="Read more about smart matching">Read more</button><img src="https://i.ibb.co/ZpxYgJX9/Workwalaa-payment-interface-100-x-100-px-5.png" alt="AI-powered job matching algorithm" loading="lazy"></div><div class="css-card-back"><h3>Intelligent & Fast</h3><p>Our algorithm analyzes your specific requirements, worker skills, and location to provide an instant and accurate match, saving you time and effort.</p></div></div></article>
+          <article class="css-card"><div class="css-card-inner"><div class="css-card-front"><h3>Multi Language Support</h3><p>We help bridge language gaps by supporting regional languages, making communication easier for both clients and workers.<br>‎</p><button class="read-more" aria-label="Read more about language assistance">Read more</button><img src="https://i.ibb.co/RpX09zDJ/Untitled-design-3.png" alt="Language translation and communication support" loading="lazy"></div><div class="css-card-back"><h3>Helping You Communicate Better</h3><p>Our platform supports multiple Indian languages to help clients and workers understand each other more easily. While we don't offer live translation, this support improves clarity and reduces miscommunication during work.</p></div></div></article>
+          <article class="css-card"><div class="css-card-inner"><div class="css-card-front"><h3>No hidden cost and price haggles</h3><p>With Workwalaa, what you see is what you pay. No random charges or last minute surprises.<br>‎</p><button class="read-more" aria-label="Read more about transparent pricing">Read more</button><img src="https://i.ibb.co/dsYBNs4q/Copy-of-Workwalaa-payment-interface-100-x-100-px-11.png" alt="Transparent pricing with no hidden fees" loading="lazy"></div><div class="css-card-back"><h3>Transparent Pricing</h3><p>Enjoy fair and upfront pricing for all services. The rate is fixed and transparent, so you can avoid haggling and be confident in the cost from the start.</p></div></div></article>
+          <article class="css-card"><div class="css-card-inner"><div class="css-card-front"><h3>Hyperlocal access</h3><p>Workers are matched within your local area. Workwalaa supports local hiring by connecting users to nearby talent, reducing delay.<br>‎</p><button class="read-more" aria-label="Read more about quality assurance">Read more</button><img src="https://i.ibb.co/xKjRDqnH/Copy-of-Workwalaa-payment-interface-100-x-100-px-3.png" alt="Quality control and service monitoring" loading="lazy"></div><div class="css-card-back"><h3>Nearby Workers, Faster Response</h3><p>Workwalaa connects you with workers from your nearby area, which means quicker availability, better familiarity with local conditions, and reduced travel delays.</p></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Staggered CTA Section (Unchanged HTML, but buttons now work via JS) -->
+    <section id= "cta" class="staggered-container fade-in-section">
+      <div class="staggered-header"><h2>How Workwalaa Works</h2><p>Experience the difference with our streamlined approach to connecting talent with opportunity</p></div>
+      <article class="staggered-item"><div class="staggered-content" ><h3>Skip the Hassle, Get Workers Instantly</h3><p>Tired of early morning naka hunts? Still running behind middle men? Now get direct access to available workers near you – verified, rated and ready. No more delays, no more uncertainty.</p><button class="staggered-button" aria-label="Book workers now via WhatsApp" onclick="window.open('http://wa.me/918156801024', '_blank')">Book Now <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg></button></div><div class="staggered-image"><img src="https://i.ibb.co/VpxwDqxq/Copy-of-Workwalaa-payment-interface-100-x-100-px-10.png" alt="Customer easily booking a worker through mobile app" loading="lazy"></div></article>
+      <article class="staggered-item"><div class="staggered-content"><h3>Earn on Your Terms, Build Your Future</h3><p>No more waiting on the roadsides. Get job updates directly on your phone. Build a verified profile with us and let your work speak for itself. Your skills, your schedule, your dignity.</p><button class="staggered-button" aria-label="Start earning with Workwalaa" onclick="window.open('http://wa.me/918156801024', '_blank')">Start Earning <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg></button></div><div class="staggered-image"><img src="https://i.ibb.co/qYXQsvYF/Copy-of-Workwalaa-payment-interface-100-x-100-px-9.png" alt="Worker receiving job notifications on mobile phone" loading="lazy"></div></article>
+      <article class="staggered-item"><div class="staggered-content"><h3>Creating Impact, Building Communities</h3><p>We strive to ensure the well being of both our Workers and Customers. We constantly partner with safety advocates and develop systems to make every job a pleasant and comfortable experience.</p><button class="staggered-button" aria-label="Join the Workwalaa community"onclick="window.open('http://wa.me/918156801024', '_blank')">Join the Movement <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg></button></div><div class="staggered-image"><img src="https://i.ibb.co/0jbDnRcN/Copy-of-Workwalaa-payment-interface-100-x-100-px-8.png" alt="Happy worker using Workwalaa platform on mobile phone" loading="lazy"></div></article>
+    </section>
+
+    <!-- Contact Section (Unchanged HTML) -->
+    <section id="contact" class="contact improved-contact fade-in-section">
+      <div class="contact-content">
+        <div class="contact-info-block"><h2>We're excited to hear from you.</h2><p>Reach out to us with any questions, feedback or partnership opportunities</p><div class="contact-details"><div><span class="contact-icon"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FFD600"/><path d="M19.5 17.1l-2.4-0.3c-0.4 0-0.7 0.1-1 0.4l-1.1 1.1c-2.1-1.1-3.8-2.8-4.9-4.9l1.1-1.1c0.3-0.3 0.4-0.6 0.4-1l-0.3-2.4c-0.1-0.5-0.5-0.9-1-0.9H8c-0.6 0-1.1 0-1.1 1.1 0 6 4.9 10.9 10.9 10.9 0.6 0 1.1-0.5 1.1-1.1v-1.1c0-0.5-0.4-0.9-0.9-1z" fill="#fff"/></svg></span><a href="tel:+918156801024" style="color: black; text-decoration: none; font-family: 'Maven Pro', sans-serif; font-weight: normal;">+91 81568 01024</a></div><div><span class="contact-icon"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FFD600"/><path d="M7 10l7 5 7-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="7" y="10" width="14" height="8" rx="2" stroke="#fff" stroke-width="2"/></svg></span><a href="mailto:info@workwalaa.com" style="color: black; text-decoration: none; font-family: 'Maven Pro', sans-serif; font-weight: normal;">info@workwalaa.com</a></div><div><span class="contact-icon"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FFD600"/><path d="M14 8a4 4 0 0 1 4 4c0 3-4 7-4 7s-4-4-4-7a4 4 0 0 1 4-4z" stroke="#fff" stroke-width="2"/><circle cx="14" cy="12" r="1.5" fill="#fff"/></svg></span> <div style="font-family: 'Maven Pro', sans-serif; font-weight: normal;">Conexcia Enterprises LLP</div></div>
+
+<!-- ✅ Social icons added right below the address -->
+<div class="footer-section footer-social-inline" style="margin-top: 16px;">
+  <a href="https://x.com/workwalaa_app?s=21" target="_blank" aria-label="X">
+    <img src="https://i.ibb.co/XrxFcz95/Copy-of-Copy-of-Workwalaa-payment-interface-100-x-100-px-8.png" alt="Twitter Logo" width="26" height="26" />
+  </a>
+  <a href="https://www.instagram.com/workwalaa_app/" target="_blank" aria-label="Instagram">
+    <img src="https://i.ibb.co/1ttdPtDk/Copy-of-Copy-of-Workwalaa-payment-interface-100-x-100-px-6.png" alt="Instagram Logo" width="26" height="26" />
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61578621201819" target="_blank" aria-label="Facebook">
+    <img src="https://i.ibb.co/q3kg3BkN/Copy-of-Copy-of-Workwalaa-payment-interface-100-x-100-px-5.png" alt="Facebook Logo" width="22" height="22" />
+  </a>
+  <a href="https://www.linkedin.com/company/workwalaa/" target="_blank" aria-label="LinkedIn">
+    <img src="https://i.ibb.co/4wXVfSFD/Copy-of-Copy-of-Workwalaa-payment-interface-100-x-100-px-4.png" alt="LinkedIn Logo" width="26" height="26" />
+  </a>
+</div>
+
+</div></div>
+
+        <form class="contact-form" novalidate><div class="error-message" id="form-error" role="alert" aria-live="polite"></div><label for="contact-name">Name </label><input type="text" id="contact-name" name="name" placeholder="Your name" required><label for="contact-email">Email</label><input type="email" id="contact-email" name="email" placeholder="Email id" required><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="4" placeholder="Your message" required></textarea>
+          <button type="button" onclick="sendViaGmail()">Send Via Mail</button>
+         <div id="contact-success" role="alert" aria-live="polite">Thank you! We'll get back to you soon.</div></form>
+      </div>
+     <script>
+  function sendViaGmail() {
+    const name = document.getElementById('contact-name').value;
+    const email = document.getElementById('contact-email').value;
+    const message = document.getElementById('contact-message').value;
+
+    const subject = encodeURIComponent("Message from Website");
+    const body = encodeURIComponent(`Name: ${name}\n\nEmail: ${email}\n\nMessage:\n\n${message}`);
+
+    // Detect if user is on mobile
+    const isMobile = /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      // On phones → open Gmail app (mailto)
+      const mailtoURL = `mailto:info@workwalaa.com?subject=${subject}&body=${body}`;
+      window.location.href = mailtoURL;
+    } else {
+      // On desktop → open Gmail website as before
+      const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=info@workwalaa.com&su=${subject}&body=${body}`;
+      window.open(gmailURL, '_blank');
+    }
+  }
+</script>
+
+
+    </section>
+  </main>
+
+  <!-- Footer (Unchanged HTML) -->
+  <footer id="footer">
+  <div class="footer-content">
+    <!-- Left: Logo -->
+    <div class="footer-section footer-left">
+      <img src="https://i.ibb.co/7dKvTqvZ/Untitled-design-7.png" alt="Workwalaa Logo" class="footer-logo" loading="lazy" />
+    </div>
+
+
+    <!-- Right: Links -->
+    <nav class="footer-section footer-links" aria-label="Footer navigation">
+<!-- Trigger Button -->
+<a href="#" id="termsBtn">Terms of Service</a>
+<div id="termsModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    
+<h1>Terms & Conditions – Workwalaa</h1>
+<p><em>Last updated: 13/08/2025</em></p>
+
+<p>Workwalaa is operated by <strong>Conecxia Enterprises LLP</strong> (“we,” “us,” “our”), registered in India under LLPIN [LLPIN]. By using our mobile applications (“Worker App,” “Client App”) and services, you (“you,” “your,” whether Worker, Contractor, or Client) agree to these Terms & Conditions (“Terms”). If you do not agree, please do not use Workwalaa.</p>
+
+
+<h2>1. Who Can Use Workwalaa</h2>
+<ul>
+    You must be <strong>18 years or older</strong> to create an account.
+    You must have the legal capacity to enter into binding agreements under Indian law.
+    Workers must provide accurate details including name, age, contact number, and any mandatory KYC documents.
+</ul>
+
+
+<h2>2. Our Services</h2>
+<ul>
+    <strong>For Clients</strong> – We connect you to workers or contractors based on your job requirements.
+    <strong>For Workers</strong> – We help you find job opportunities that match your skills and location.
+    <strong>For Contractors</strong> – We connect you to clients and help you manage your workforce.
+</ul>
+<p>We are a <strong>technology platform only</strong> – <strong>we do not employ, manage, or control the workers</strong> and are not responsible for the quality, safety, legality, or completion of any work.</p>
+
+
+<h2>3. Information We Collect</h2>
+<p>When you use Workwalaa, we collect:</p>
+<ul>
+    <strong>Personal details</strong>: Name, phone number, email, gender, date of birth, Aadhaar/PAN (if provided).
+    <strong>Location data</strong>: GPS location during app usage.
+    <strong>Employment data</strong>: Skills, work history, ratings/reviews.
+    <strong>Device data</strong>: IP address, device model, operating system.
+    <strong>Media uploads</strong>: Profile pictures, documents, resumes.
+    <strong>Financial details</strong>: Bank account or UPI ID for payouts.
+</ul>
+<p>We also use third-party tools like WhatsApp API, SMS providers, payment gateways, and analytics services to operate and improve our platform.</p>
+
+
+<h2>4. How We Use Your Data</h2>
+<ul>
+    Provide and improve our services.
+    Match workers with clients/contractors.
+    Communicate with you via app notifications, WhatsApp, SMS, or email.
+    Process payments and payouts.
+    Conduct analytics for service improvement.
+</ul>
+<p>By using Workwalaa, you agree to our <strong>Privacy Policy</strong>.</p>
+
+
+<h2>5. Payments</h2>
+<ul>
+    Client payments and worker payouts are processed via third-party payment gateways.
+    Workwalaa is not responsible for any delays, failures, or technical errors in payment processing caused by banks or payment partners.
+</ul>
+
+
+<h2>6. No Guarantee & No Liability</h2>
+<ul>
+    We do not guarantee that you will find work, hire a worker, or that any job will be completed to your satisfaction.
+    We are not responsible for disputes, damages, injuries, fraud, or any losses arising from jobs arranged through Workwalaa.
+    <strong>Liability Cap:</strong> If we are ever held liable by a court, our total liability will be <strong>₹0</strong>.
+</ul>
+
+
+<h2>7. Prohibited Use</h2>
+<ul>
+    Provide false information or fake documents.
+    Use the platform for illegal or harmful activities.
+    Circumvent Workwalaa to avoid using the platform for future jobs.
+</ul>
+
+
+<h2>8. Account Suspension & Termination</h2>
+<p>We may suspend or terminate your account if you:</p>
+<ul>
+    Violate these Terms.
+    Engage in fraud, harassment, or illegal activities.
+    Abuse or misuse the platform.
+</ul>
+
+
+<h2>9. No Employment Relationship</h2>
+<ul>
+    Workwalaa is <strong>not an employer</strong>.
+    All arrangements are <strong>directly between Client and Worker/Contractor</strong>.
+    You are solely responsible for complying with applicable labour laws.
+</ul>
+
+
+<h2>10. Governing Law & Jurisdiction</h2>
+<p>These Terms are governed by the laws of <strong>India</strong>, and disputes will be resolved in the courts of <strong>Ernakulam, Kerala</strong>.</p>
+
+
+<h2>11. Changes to These Terms</h2>
+<p>We may update these Terms at any time. Continued use of the platform means you accept the updated Terms.</p>
+
+
+<h2>12. Contact Us</h2>
+<p>If you have questions, email us at: <strong>info@workwalaa.com</strong></p>
+
+  </div>
+</div>
+
+<a href="#" id="prvcybtn">Privacy Policy</a>
+<!-- The Modal -->
+<div id="privacyModal" class="modal">
+  <div class="modal-content">
+    <span class="close" id="closePrivacy">&times;</span>
+
+    
+<h2>Privacy Policy</h2>
+    <p><strong>Conecxia Enterprises LLP</strong> Conecxia Enterprises LLP (“Workwalaa”, “we”, “our”, “us”) built the Workwalaa Worker App and Workwalaa Client App (together, the “Apps”) as service-based applications to connect workers, contractors, and clients efficiently. These Services are provided by Conecxia Enterprises LLP at no cost to registered users and are intended for use as described in this Privacy Policy.
+
+This page is used to inform users of our policies regarding the collection, use, and disclosure of Personal Information if anyone decides to use our Services.<br>
+
+By downloading, accessing, or using our Apps, you agree to the collection and use of information in accordance with this policy. The Personal Information we collect is used for providing, improving, and securing the Service. We do not use or share your information with anyone except as described in this Privacy Policy.<br>
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions unless otherwise defined here.</p>
+    
+    <h3>1. Information We Collect</h3>
+    <ul>
+      <strong>Personal Details:</strong> Name, mobile number, email, gender, date of birth, Aadhaar/PAN.
+      <strong>Location Data:</strong> Real time location during service use.
+      <strong>Employment Details:</strong> Skills, work history, references, ratings, and reviews.
+      <strong>Device Data:</strong> IP address, device model, OS, app version.
+      <strong>Media Uploads:</strong> Profile picture, resumes, identity documents.
+      <strong>Financial Details:</strong> Bank account details, UPI ID, and payment history.
+    </ul>
+
+    <h3>2. Third-Party Services</h3>
+    <p>We use third-party services that may collect information ...</p>
+
+    <h3>3. Use of Information</h3>
+    <p>We use collected data for service management, job matching, communication, payments, security, and analytics.</p>
+
+    <h3>4. Information Sharing</h3>
+    <p>We may share your information with employers, contractors, and third-party providers for service purposes.</p>
+
+    <h3>5. Log Data</h3>
+    <p>In case of an error, we collect Log Data like device IP, model, OS version, app configuration, and date/time.</p>
+
+    <h3>6. Cookies & Tracking</h3>
+    <p>We do not use cookies directly, but third-party SDKs may use similar technologies.</p>
+
+    <h3>7. Data Retention & Deletion</h3>
+    <p>We do not offer in-app account deletion; users may log out anytime. Some data may be retained for legal reasons.</p>
+
+    <h3>8. Children’s Privacy</h3>
+    <p>We do not allow users below 18 years old to register.</p>
+
+    <h3>9. Security</h3>
+    <p>We use encryption and access controls, but no system is 100% secure.</p>
+
+    <h3>10. Consent</h3>
+    <p>By using our services, you consent to our data practices.</p>
+
+    <h3>11. Changes to This Privacy Policy</h3>
+    <p>We may update our policy; changes will be posted here.</p>
+
+    <h3>12. Contact Us</h3>
+    <p>Email: <strong>info@workwalaa.com</strong><br>
+       Conecxia Enterprises LLP, Kerala, India<br>
+       <em>Effective Date: 12 August 2025</em></p>
+  </div>
+</div>
+<div class="footer-bottom">&copy; 2025 Workwalaa. All Rights Reserved.</div>
+    </nav>
+  </div>
+
+</footer>
+
+
+
+<script>
+// Open Privacy Policy Modal (Modal 2)
+document.getElementById("prvcybtn").onclick = function(e) {
+  e.preventDefault();
+  document.getElementById("privacyModal").style.display = "block";
+}
+
+// Close Privacy Policy Modal when clicking X
+document.getElementById("closePrivacy").onclick = function() {
+  document.getElementById("privacyModal").style.display = "none";
+}
+
+// Close Privacy Policy Modal when clicking outside
+window.addEventListener("click", function(e) {
+  if (e.target == document.getElementById("privacyModal")) {
+    document.getElementById("privacyModal").style.display = "none";
+  }
+});
+</script>
+<script>
+  // Terms modal
+  const termsModal = document.getElementById("termsModal");
+  const termsBtn = document.getElementById("termsBtn");
+  const termsClose = document.getElementsByClassName("close")[0];
+
+  termsBtn.onclick = function(e) {
+    e.preventDefault();
+    termsModal.style.display = "block";
+  }
+
+  termsClose.onclick = function() {
+    termsModal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == termsModal) {
+      termsModal.style.display = "none";
+    }
+  }
+</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const menuToggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav');
+      
+      // Mobile Menu Toggle
+      menuToggle.addEventListener('click', () => {
+        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        nav.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', !isExpanded);
+      });
+      
+      // WhatsApp Link Function
+      const openWhatsApp = () => {
+        const phoneNumber = '918156801024';
+        const message = encodeURIComponent("Hi Workwalaa, I'm interested in downloading your app.");
+        window.open(https://wa.me/${phoneNumber}?text=${message}, 'I am Intrested');
+      };
+      
+      document.getElementById('download-btn').addEventListener('click', openWhatsApp);
+      document.querySelectorAll('.staggered-button').forEach(button => {
+        button.addEventListener('click', openWhatsApp);
+      });
+      
+      // Smooth Scroll for "About Us" button
+      document.getElementById('about-btn').addEventListener('click', () => {
+        document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+      });
+
+      // Contact Form Validation
+      const contactForm = document.querySelector('.contact-form');
+      const errorDiv = document.getElementById('form-error');
+      const successDiv = document.getElementById('contact-success');
+
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        errorDiv.style.display = 'none';
+        errorDiv.textContent = '';
+        
+        const name = document.getElementById('contact-name').value.trim();
+        const email = document.getElementById('contact-email').value.trim();
+        const message = document.getElementById('contact-message').value.trim();
+        let errors = [];
+
+        if (!name) errors.push('Name is required.');
+        if (!email) errors.push('Email is required.');
+        if (!message) errors.push('Message is required.');
+        
+        if (errors.length > 0) {
+          errorDiv.textContent = errors.join(' ');
+          errorDiv.style.display = 'block';
+        } else {
+          // On successful validation
+          successDiv.style.display = 'block';
+          contactForm.reset();
+          // Hide success message after a few seconds
+          setTimeout(() => { successDiv.style.display = 'none'; }, 4000);
+          
+          // In a real application, you would send the data to a server here, e.g., using fetch()
+          // fetch('/api/contact', { method: 'POST', body: new FormData(contactForm) });
+        }
+      });
+    });
+  </script>
+<script>
+  const faders = document.querySelectorAll('.fade-in-section');
+
+  const appearOptions = {
+    threshold: 0.1,
+    rootMargin: "0px 0px -50px 0px"
+  };
+
+  const appearOnScroll = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+
+  faders.forEach(section => {
+    appearOnScroll.observe(section);
+  });
+</script>
+
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('nav');
+
+  menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+    const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+    menuToggle.setAttribute("aria-expanded", !isExpanded);
+  });
+</script>
+<script>
+    const downloadBtn = document.getElementById('download-btn');
+    const popupOverlay = document.getElementById('popup-overlay');
+    const closePopup = document.getElementById('close-popup');
+
+    // Show popup when clicking download button
+    downloadBtn.addEventListener('click', () => {
+      popupOverlay.style.display = 'flex';
+    });
+
+    // Close popup
+    closePopup.addEventListener('click', () => {
+      popupOverlay.style.display = 'none';
+    });
+
+    // Close popup when clicking outside
+    popupOverlay.addEventListener('click', (e) => {
+      if (e.target === popupOverlay) {
+        popupOverlay.style.display = 'none';
+      }
+    });
+  </script>
+
+<script>
+function sendEmail(event) {
+    event.preventDefault(); // Prevent form refresh
+    const userEmail = document.getElementById("user-email").value;
+
+    const subject = "I would like to install the beta version of app";
+    const body = `Hello,%0D%0A%0D%0AMy email: ${encodeURIComponent(userEmail)}%0D%0A%0D%0AI would like to install the beta version of the app.`;
+
+    // Detect if user is on mobile
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile) {
+        // On mobile → open Gmail app using mailto
+        window.location.href = `mailto:conecxia@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+    } else {
+        // On PC → open Gmail Web directly
+        window.open(
+          `https://mail.google.com/mail/?view=cm&fs=1&to=conecxia@gmail.com&su=${encodeURIComponent(subject)}&body=${body}`,
+          "_blank"
+        );
+    }
+}
+</script>
+
+
+
+</body>
+</html>
